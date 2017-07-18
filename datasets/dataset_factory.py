@@ -20,12 +20,14 @@ from __future__ import print_function
 
 from datasets import cifar10
 from datasets import flowers
+from datasets import leafs
 from datasets import imagenet
 from datasets import mnist
 
 datasets_map = {
     'cifar10': cifar10,
     'flowers': flowers,
+    'leafs': leafs,
     'imagenet': imagenet,
     'mnist': mnist,
 }
