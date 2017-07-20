@@ -61,6 +61,8 @@ python eval_image_classifier.py \
   --dataset_name=leafs \
   --dataset_split_name=validation \
   --dataset_dir=${DATASET_DIR} \
+  --preprocessing_name inception \
+  --eval_image_size 299 \
   --model_name=resnet_v2_152
 
 # Fine-tune all the new layers for 3000 steps.
@@ -87,4 +89,6 @@ python eval_image_classifier.py \
   --dataset_name=leafs \
   --dataset_split_name=validation \
   --dataset_dir=${DATASET_DIR} \
+  --preprocessing_name inception \
+  --eval_image_size 299 \
   --model_name=resnet_v2_152
